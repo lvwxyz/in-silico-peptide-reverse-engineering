@@ -1,0 +1,26 @@
+# 대용량 데이터 파일
+data/*.csv
+data/*.tsv
+data/*.h5
+data/*.pkl
+!data/README.md
+!data/.gitkeep
+
+# 모델 체크포인트
+*.pt
+*.pth
+*.ckpt
+
+# Python 캐시
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 시스템 파일
+.DS_Store
+Thumbs.db
+
+# 문서 산출물
+*.pptx
+*.docx
+*.pdf
