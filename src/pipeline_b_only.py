@@ -1,6 +1,28 @@
 # -*- coding: utf-8 -*-
 """
-pipeline_b_only.py
+In Silico Biocompatible Peptide Reverse Engineering Pipeline
+=============================================================
+Pipeline B: Genetic Algorithm-based Peptide Optimizer
+
+Description:
+    IEDB 데이터로 학습된 FBR 예측 모델(Pipeline A)을 심사위원으로 삼아,
+    대식세포의 이물 반응(Foreign Body Response)을 최소화하는
+    펩타이드 서열을 유전 알고리즘으로 역설계합니다.
+
+Final Result:
+    Optimal Sequence : EVTELTLLTFHYKLR
+    P_FBR            : <목표치 이하
+    KPI              : 6/6 달성
+
+Usage:
+    python pipeline_b_only.py
+
+Author: [이경은]
+Date  : 2026.05.29
+"""
+
+"""
+pipeline_b_only.py (Description_Extended_Ver)
 ==================
 학습(Ablation Study) 단계를 건너뛰고,
 저장된 벤치마킹 결과(benchmark_report.csv)와 가중치(.pth)를 읽어
