@@ -1,4 +1,4 @@
-# 🧬 In Silico Biocompatible Peptide Reverse Engineering Pipeline
+# In Silico Biocompatible Peptide Reverse Engineering Pipeline
 
 > AI-driven reverse engineering system that automatically designs peptide sequences minimizing Foreign Body Response (FBR) in implantable biomedical devices.
 
@@ -18,9 +18,9 @@
 
 ## 🔬 Project Overview
 
-생체재료(임플란트) 표면에 코팅되는 펩타이드 서열을 **역설계(Reverse Engineering)**하는 인실리코(In Silico) AI 파이프라인입니다.
+생체재료 표면에 코팅되는 펩타이드 서열을 **역설계(Reverse Engineering)**하는 인실리코(In Silico) AI 파이프라인입니다.
 
-기존 생체재료 개발은 실험적 시행착오(Trial & Error)에 의존하여 막대한 비용과 시간이 소요됩니다. 본 프로젝트는 **IEDB 면역 에피토프 데이터** 기반의 딥러닝 예측 모델과 **유전 알고리즘(Genetic Algorithm)** 최적화 루프를 결합하여, 대식세포의 이물 반응(FBR)을 최소화하는 펩타이드 서열을 자동으로 도출합니다.
+기존 생체재료 개발은 실험적 시행착오(Trial & Error)에 의존하여 막대한 비용과 시간이 소요됩니다. 본 프로젝트는 **IEDB 면역 Epitope 데이터** 기반의 딥러닝 예측 모델과 **유전 알고리즘(Genetic Algorithm)** 최적화 루프를 결합하여, 대식세포의 이물 반응(FBR)을 최소화하는 펩타이드 서열을 자동으로 도출합니다.
 
 ---
 
